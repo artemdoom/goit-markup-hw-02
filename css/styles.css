@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
