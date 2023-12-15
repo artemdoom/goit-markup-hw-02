@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -8,24 +8,22 @@ a {
   text-decoration: none;
 }
 
-.logo-web {
+.logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.666;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
-.logo-studio {
+.logo-studio-header {
   color: #2e2f42;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.666;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+}
+
+.logo-studio-footer {
+  color: #f4f4fd;
 }
 
 .nav-menu {
@@ -36,7 +34,8 @@ a {
   letter-spacing: 0.32px;
 }
 
-.link-menu:hover {
+.link-menu:hover,
+.link-menu:focus {
   color: #404bbf;
 }
 
@@ -53,9 +52,21 @@ a {
   letter-spacing: 0.32px;
 }
 
+.address {
+  font-style: normal;
+}
+
 .link-contacts:hover,
 .link-contacts:focus {
   color: #404bbf;
+}
+
+.section-goals {
+  background-color: #2e2f42;
+}
+
+.section-team {
+  background-color: #f4f4fd;
 }
 
 .title-main {
@@ -63,7 +74,7 @@ a {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.071;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
@@ -79,15 +90,14 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
-.button:hover {
+.button:hover,
+button:focus {
   background: #404bbf;
-}
-
-.goals-title-main {
 }
 
 .goals-title {
@@ -102,7 +112,6 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  width: 264px;
 }
 
 .team-title-main {
@@ -110,9 +119,13 @@ a {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.111;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+
+.list-team {
+  background-color: #ffffff;
 }
 
 .team-title {
@@ -136,7 +149,7 @@ a {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.111;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -159,8 +172,7 @@ a {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
-  width: 264px;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-img {
@@ -172,4 +184,8 @@ a {
 .team-img {
   width: 264px;
   height: 260px;
+}
+
+.footer {
+  background: #2e2f42;
 }
